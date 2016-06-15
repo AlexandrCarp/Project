@@ -22,8 +22,12 @@ gulp.task('jade', function() {
 		.pipe(jade())
 		.pipe(gulp.dest('public'))
 });
+gulp.task('img', function() {
+	return gulp.src('resourses/img/*.jpg')
+		.pipe(gulp.dest('public/img'))
+});
 
-gulp.task('watch', ['browser-sync', 'sass', 'jade'], function() {
+gulp.task('watch', ['browser-sync', 'sass', 'jade', 'img'], function() {
 	gulp.watch('resourses/sass/*.scss', ['sass']);
 	gulp.watch('resourses/jade/*.jade', ['jade']);
 	gulp.watch('public/*.html', browserSync.reload);
