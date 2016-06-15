@@ -1,0 +1,8 @@
+.DS_Store
+messages
+node_modules
+public
+.sublimelinterrc
+LICENSE
+linter.py
+messages.json
