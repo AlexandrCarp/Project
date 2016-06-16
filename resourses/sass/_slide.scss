@@ -9,23 +9,23 @@
 	};
 	.corner {
 		height: 0px;
-	   	border: 20px solid transparent;
-	    border-right-width: 70px;
-	    border-bottom-width: 70px;
+		border: 20px solid transparent;
+		border-right-width: 70px;
+		border-bottom-width: 70px;
 		border-top-width: 0px;
-	    border-right-color: #4F4F4F;
-	    background: none;
-	    position: absolute;
-	    top: 0px;
-	    right: 0px;
-	   .plus {
-	    	position: relative;
-		   	top: 7px;
-	    	left: 55px;
-	    	color: white;
-	    	font-size: 25px;
+		border-right-color: #4F4F4F;
+		background: none;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		.plus {
+			position: relative;
+			top: 7px;
+			left: 55px;
+			color: white;
+			font-size: 25px;
 			font-weight: bold;
-	    };
+		};
 	};
 	.slide1 {
 		height: 400px;
