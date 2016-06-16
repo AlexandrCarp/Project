@@ -1,0 +1,35 @@
+.information {
+	width: 716px;
+	background-color: white;
+	height: 400px;
+	margin-left: 400px;
+	margin-top: 15px;
+	.button {
+		width: 30px;
+		height: 30px;
+		background-color: #CFCFCF;
+		.plus {
+			color: white;
+			position: relative;
+			top: 3px;
+			left: 9px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+	}
+	.title {
+		color: grey;
+		width: 650px;
+		position: relative;
+		left: 50px;
+	}
+	.context {
+		color: grey;
+		position: relative;
+		width: 650px;
+		left: 50px;
+		.p {
+			margin-bottom: 30px;
+		}
+	}
+}
