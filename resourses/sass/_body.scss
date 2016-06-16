@@ -4,12 +4,12 @@
 	height: 400px;
 	.bridge {
 		height: 400px;
-		width: 790px;
-	}
+		width: 715px;
+	};
 	.picture {
 		display: inline-block;
 		height: 400px;
-		width: 790px;
+		width: 715px;
 		.background {
 			position: absolute;
 			top: 544px;
@@ -23,15 +23,15 @@
 				position: relative;
 				top: 25px;
 				left: 30px;
-			}
-		}
-	}
+			};
+		};
+	};
 	.band {
 		display: inline-block;
 		height: 400px;
 		width: 10px;
 		background-color: #FF7F50;
-	}
+	};
 	.arrow {
 			height: 0px;
 			border: 20px solid transparent;
@@ -41,15 +41,15 @@
 			background: none;
 			position: absolute;
 			top: 250px;
-			left: 1200px;
+			left: 1125px;
 			z-index: 1000;
-	}
+	};
 	.info {
 		position: relative;
 		bottom: 423px;
-		left: 800px;
+		left: 725px;
 		height: 400px;
-		width: 282px;
+		width: 357px;
 		background-color: #4F4F4F;
 		.title {
 			position: relative;
@@ -57,40 +57,41 @@
 			top: 40px;
 			color: white;
 			height: 100px;
-			width: 220px;
-		}
+			width: 300px;
+		};
 		.context {
 			position: relative;
 			left: 40px;
 			color: grey;
-			width: 220px;
-		}
+			width: 300px;
+			margin-top: 20px;
+		};
 		.plus {
 			position: relative;
 			color: white;
 			font-size: 30px;
 			font-weight: bold;
 			left: 40px;
-		}
+		};
 		.data {
 			position: relative;
-			left: 150px;
+			left: 220px;
 			bottom: 47px;
 			color: grey;
 			font-size: 15px;
-		}
+		};
 		.clock {
 			position: relative;
-			left: 130px;
+			left: 200px;
 			bottom: 25px;
 			.clockimg {
 				height: 17px;
-			}
-		}
+			};
+		};
 		.arrows {
 			position: absolute;
 			top: 367px;
-			left: 215px;
-		}
-	}
-}
+			left: 290px;
+		};
+	};
+};
