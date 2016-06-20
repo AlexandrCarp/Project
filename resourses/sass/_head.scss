@@ -1,0 +1,74 @@
+.head {
+	width: 100%;
+	height: 70px;
+	background-color: #4F4F4F;
+	.clean-block {
+		width: 20%;
+		height: 70px;
+		background-color: #E8E8E8;
+		display: inline-block;
+	}
+	.emblema {
+		width: 70px;
+		height: 70px;
+		display: inline-block;
+		position: relative;
+		bottom: 80px;
+		.emblema-img {
+			width: 20px;
+			height: 20px;
+			position: relative;
+			top: 25px;
+			left: 25px;
+			.gps {
+				width: 20px;
+			}
+		}
+	}
+	.menu {
+		display: inline-block;
+		.menu-item {
+			display: inline-block;
+			margin: 10px;
+			color: white;
+			position: relative;
+			bottom: 60px;
+		}
+	}
+	.select-menu {
+		float: right;
+		height: 70px;
+		position: relative;
+		bottom: 75px;
+		display: inline-block;
+		.quicklinks {
+			color: white;
+			position: relative;
+			top: 20px;
+			display: inline-block;
+			.gps-img {
+				display: inline-block;
+				position: relative;
+				top: 5px;
+				left: 10px;
+				.gps {
+					width: 20px;
+				}
+			}
+		}
+		.dropdown {
+			color: white;
+			display: inline-block;
+			margin-left: 60px;
+			position: relative;
+			top: 20px;
+			.button {
+				display: inline-block;
+				position: relative;
+				top: 4px;
+			}
+		}
+
+
+	}
+}
