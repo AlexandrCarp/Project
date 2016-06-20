@@ -1,0 +1,121 @@
+.line {
+	height: 45px;
+	margin-top: 15px;	
+	.search {
+		float: left;
+		width: 300px;
+		height: 45px;
+		background-color: white;
+		display: inline-block;
+		margin-right: 20px;
+		.text {
+			color: grey;
+			font-size: 14px;
+			position: relative;
+			top: 13px;
+			left: 20px;
+		}
+		.img {
+			position: relative;
+			bottom: 12px;
+			left: 265px;
+			width: 35px;
+			height: 35px;
+			.clock {
+				width: 35px;
+				height: 35px;
+			}
+		}
+	}
+	.findy {
+		float: left;
+		display: inline-block;
+		width: 150px;
+		height: 45px;
+		background-color: white;
+		.img {
+			display: inline-block;
+			position: relative;
+			left: 7.5px;
+			bottom: 8px;
+			.gps {
+				width: 30px;
+			}
+		}
+		.text {
+			display: inline-block;
+			color: grey;
+			position: relative;
+			left: 20px;
+			bottom: 20px;
+			font-size: 14px;
+		}
+		.button {
+			display: inline-block;
+			position: relative;
+			left: 45px;
+			width: 43px;
+			height: 46px;
+		}
+
+	}
+	.social {
+		float: right;
+		height: 45px;
+		.twitter {
+			position: relative;
+			top: 10px;
+			display: inline-block;
+			.img {
+				display: inline-block;
+			}
+			.name {
+				display: inline-block;
+				color: grey;
+				margin-left: 10px;
+			}
+		}
+		.facebook {
+			position: relative;
+			top: 10px;
+			display: inline-block;
+			margin-left: 30px;
+			.img {
+				display: inline-block;
+			}
+			.name {
+				display: inline-block;
+				color: grey;
+				margin-left: 10px;
+			}
+		}
+		.rss {
+			position: relative;
+			top: 10px;
+			display: inline-block;
+			margin-left: 30px;
+			.img {
+				display: inline-block;
+			}
+			.name {
+				display: inline-block;
+				color: grey;
+				margin-left: 10px;
+			}
+		}
+		.mail {
+			position: relative;
+			top: 10px;
+			display: inline-block;
+			margin-left: 30px;
+			.img {
+				display: inline-block;
+			}
+			.name {
+				display: inline-block;
+				color: grey;
+				margin-left: 10px;
+			}
+		}
+	}
+}

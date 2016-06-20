@@ -15,8 +15,10 @@ html body {
 	margin: 0;
 	padding: 0;
 }
-.clear-fix::after {
-			clear: both;
-			display: table;
-			content: '';
+.clear-fix{
+	&:after {
+		clear: both;
+		display: table;
+		content: '';
+	}
 }
