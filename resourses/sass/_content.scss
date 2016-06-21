@@ -1,0 +1,29 @@
+.content {
+	background-color: white;
+	margin-top: 15px;
+	height: 550px;
+	width: 66%;
+	.plus {
+		background-color: grey;
+		width: 30px;
+		height: 30px;
+		color: white;
+		font-size: 25px;
+		text-align: center;
+	}
+	.title {
+		font-size: 35px;
+		width: 80%;
+		margin-top: 20px;
+		margin-left: 50px;
+		margin-bottom: 30px;
+	}
+	.text {
+		color: grey;
+		width: 80%;
+		margin-left: 50px;
+		.p {
+			margin-bottom: 30px;
+		}
+	}
+}
