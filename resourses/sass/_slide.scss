@@ -1,0 +1,59 @@
+.slide-menu {
+	width: 100%;
+	height: 600px;
+	margin-top: 15px;
+	.slide {
+		width: 32%;
+		height: 100%;
+		background-color: white;
+		display: inline-block;
+		.img {
+			width: 100%;
+			position: relative;
+			.sea {
+				width: 100%;
+				height: 250px;
+			}
+			.arrows {
+				width: 0px;
+  				height: 0px;
+  				border: 70px solid transparent; 
+				border-top-color: #FF7F50;  
+  				border-bottom: 0px;
+  				border-right: 0px;
+  				position: absolute;
+  				top: 0px;
+  				right: 0px;
+  				.plus {
+  					color: white;
+  					font-size: 30px;
+  					position: absolute;
+  					top: -65px;
+  					left: -30px;
+  				}
+			}
+		}
+		.information {
+			width: 100%;
+			.title {
+				font-size: 30px;
+				width: 85%;
+				margin-left: 40px;
+			}
+			.text {
+				width: 85%;
+				margin-left: 40px;
+				margin-top: 20px;
+			}
+		}
+	}
+	.slide1 {
+		float: left;
+	}
+	.slide2 {
+		margin-left: 22px;
+	}
+	.slide3 {
+		float: right;
+	}
+}
