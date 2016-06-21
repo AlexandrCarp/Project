@@ -11,12 +11,12 @@
 			height: 400px;
 		}
 		.text-img {
-			width: 350px;
+			width: 45%;
 			height: 50px;
 			background-color: black;
 			position: relative;
 			bottom: 55px;
-			left: 400px;
+			float: right;
 			opacity: 0.6;
 			.text {
 				color: white;
@@ -27,13 +27,13 @@
 		}
 	}
 	.background {
-		width: 10px;
+		width: 0.9%;
 		height: 400px;
 		display: inline-block;
 		background-color: #FF7F50;
 		&:after {
 			position: absolute;
-			top: 290px;
+			top: 260px;
 			width: 0px;
 			height: 0px;
 			border: 20px solid transparent;					border-left-color: #FF7F50;
@@ -53,11 +53,11 @@
 			top: 45px;
 			left: 30px;
 			font-size: 25px;
-			width: 300px;
+			width: 80%;
 		}
 		.text {
 			color: grey;
-			width: 300px;
+			width: 80%;
 			margin-top: 70px;
 			margin-left: 30px;
 			display: inline-block;
@@ -72,12 +72,12 @@
 			color: grey;
 			display: inline-block;
 			position: relative;
-			left: 180px;
+			left: 100px;
 		}
 		.button {
 			position: relative;
-			left: 305px;
-			top: 98px;
+			float: right;
+			top: 135px;
 		}
 	}
 }
